@@ -37,6 +37,7 @@ main {
   background: #13293d;
   color: #fff;
   text-align: center;
+  
 }
 
 .display-block {
@@ -45,4 +46,15 @@ main {
 
 .display-inline {
   display: inline;
+}
+
+/* Allows cards to be in rows */
+.tips {
+flex: 4;
+background-color: #fff;
+padding: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: flex-start;
 }
