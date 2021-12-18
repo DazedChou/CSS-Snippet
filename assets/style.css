@@ -8,6 +8,8 @@
 
 header{
   text-align: center;
+  padding: 40px;
+  background-color: palegoldenrod;
 }
 
 main {
@@ -17,28 +19,48 @@ main {
   align-items: flex-start;
   margin-top: 2%;
 }
-
+p {
+  text-align: center;
+  line-height: 30px;
+  
+}
 
 
 .card {
-  display: flex;
-  border-style: solid;
-  border-width: 1px;
+/* display: flex; */
+  border-width: 2px;
   padding: 10px;
-  margin: 20px;
+  margin: 20px 30px;
   flex: 1 0 0;
-  border-radius: 25px;
-  box-shadow: 10px 10px 20px rgb(100, 96, 96);  
+
 }
 
-.card header {
+.card h1 {
   padding: 20px;
   height: 50px;
   background: #13293d;
   color: #fff;
   text-align: center;
-  
+  border-radius: 50px 50px 0px 0px;
+  position: relative;
+
 }
+/* when Cruiser hover over card changes color */
+.card h1:hover {
+  background:darkslateblue;
+  display: block;
+}
+
+/* .code{
+  visibility:hidden
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+} */
+
 
 .display-block {
   display: block;
