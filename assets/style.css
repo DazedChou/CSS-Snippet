@@ -19,9 +19,12 @@ main {
   align-items: flex-start;
   margin-top: 2%;
 }
-p {
+
+ p {
   text-align: center;
-  line-height: 30px;
+  line-height: 20px;
+  border-style: solid
+
   
 }
 
@@ -43,23 +46,25 @@ p {
   text-align: center;
   border-radius: 50px 50px 0px 0px;
   position: relative;
+  display: block;
 
 }
 /* when Cruiser hover over card changes color */
-.card h1:hover {
+.tips h1:hover {
   background:darkslateblue;
   display: block;
 }
 
-/* .code{
-  visibility:hidden
-  position: absolute;
-  background-color: #f9f9f9;
+
+.code{
+  position: relative;
+  background: linear-gradient(#e66465, peru );
   min-width: 160px;
+  border-radius: 0px 0px 50px 50px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
-} */
+}
 
 
 .display-block {
